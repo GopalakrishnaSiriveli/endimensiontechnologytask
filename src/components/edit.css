@@ -1,0 +1,21 @@
+.input{
+    margin:5px;
+}
+.input-container{
+    background-color:antiquewhite;
+    padding:20px;
+}
+.product-details{
+    background-color: thistle;
+    padding:20px;
+    width:50vw;
+    height:70vh;
+
+}
+.product-details1{
+    background-color: thistle;
+    padding:0px;
+    width:50vw;
+    
+
+}

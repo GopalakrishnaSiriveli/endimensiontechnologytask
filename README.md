@@ -44,3 +44,54 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+# Project Management App
+
+## Description
+The Project Management App is a web-based application designed to help users efficiently manage their projects, tasks, and teams. It provides a user-friendly interface for creating, assigning, and tracking tasks, as well as monitoring project progress. 
+
+## Folder/File Structure
+
+project-management-app/
+│
+├── app/
+│ ├── static/
+│ ├── templates/
+│ ├── init.py
+│ ├── models.py
+│ ├── routes.py
+│ └── ...
+│
+├── tests/
+│ ├── test_routes.py
+│ └── ...
+│
+├── requirements.txt
+├── README.md
+└── ...
+
+markdown
+Copy code
+
+- **app/**: Contains the main application code.
+  - **static/**: Static files like CSS, JavaScript, and images.
+  - **templates/**: HTML templates.
+  - **\_\_init\_\_.py**: Initializes the Flask application.
+  - **models.py**: Defines database models using SQLAlchemy.
+  - **routes.py**: Defines the application routes and their corresponding view functions.
+- **tests/**: Contains unit tests for the application.
+- **requirements.txt**: Lists all Python dependencies needed to run the application.
+
+## Libraries Used
+
+- Flask: A micro web framework for Python.
+- SQLAlchemy: An SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+- WTForms: A flexible forms validation and rendering library for Python web development.
+- Bootstrap: A popular CSS framework for building responsive and mobile-first websites.
+
+## Additional Notes
+
+- **Known Issues**: Currently, there's an issue with task sorting in the dashboard view. We're actively working on a fix for this.
+- **Future Improvements**: 
+  - Implementing real-time updates using web sockets for better collaboration.
+  - Adding support for file attachments to tasks.
+  - Enhancing the user interface for a more intuitive experience.

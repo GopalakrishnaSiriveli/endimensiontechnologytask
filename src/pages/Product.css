@@ -1,0 +1,22 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    background-color: rgb(160, 222, 247);
+    height:100vh;
+    width:full;
+}
+.heading{
+    font-size:40px;
+    font-weight:bold;
+
+}
+.add-product{
+    background-color: darkgrey;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
